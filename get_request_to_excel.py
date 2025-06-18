@@ -2,7 +2,6 @@ import requests
 from openpyxl import Workbook
 from openpyxl.utils.exceptions import InvalidFileException
 from requests.exceptions import RequestException
-import os
 
 
 def fetch_user_data(url):
